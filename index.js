@@ -30,7 +30,7 @@ exshow.addEventListener("click",function(){
 kelolamapel.addEventListener("change",function(){
     if(kelolamapel.value=="jm"){
         showdatampl.style.display="block";
-        ishow.src="https://forms.gle/jW98Va2FLKC3SYLu7";
+        ishow.src="https://docs.google.com/spreadsheets/d/1MHT156tstsycPY8zSAG9O9D285QdKHGguCYC2KOyIhY/edit?usp=sharing";
     }
     if(kelolamapel.value=="dk"){
         showdatampl.style.display="block";
@@ -583,5 +583,6 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
