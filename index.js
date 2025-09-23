@@ -215,7 +215,7 @@ tipesoal.addEventListener("change", function(){
     if(tipesoal.value=="lihatnilai"){
         dessoal.style.display="none";
         assesment.style.display="block";
-        doassesment.src="nilai.pdf";
+        doassesment.src="https://forms.gle/G8KP7Z7oFbnHJSCj6";
     }
     if(tipesoal.value=="dwn"){
         dessoal.style.display="block";
@@ -583,3 +583,4 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
