@@ -36,6 +36,14 @@ kelolamapel.addEventListener("change",function(){
         showdatampl.style.display="block";
         ishow.src="https://docs.google.com/spreadsheets/d/15EJRIqCB14ghDm9VG-Q9twQyTbSeA0H0KCSBgvf4oPg/edit?usp=sharing";
     }
+    if(kelolamapel.value=="cg"){
+        showdatampl.style.display="none";
+        ishow.src="https://drive.google.com/file/d/1f-OZKY95RHiMhqoz2UhCgNpGuYQY6pAu/view?usp=sharing";
+    }
+    if(kelolamapel.value=="ps"){
+        showdatampl.style.display="none";
+        ishow.src="https://drive.google.com/file/d/1f-OZKY95RHiMhqoz2UhCgNpGuYQY6pAu/view?usp=sharing";
+    }
     if(kelolamapel.value=="pd"){
         showdatampl.style.display="none";
         ishow.src="";
@@ -583,6 +591,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
