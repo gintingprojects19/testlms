@@ -42,7 +42,7 @@ kelolamapel.addEventListener("change",function(){
     }
     if(kelolamapel.value=="ps"){
         showdatampl.style.display="none";
-        ishow.src="https://docs.google.com/spreadsheets/d/1MHT156tstsycPY8zSAG9O9D285QdKHGguCYC2KOyIhY/preview";
+        ishow.src="https://docs.google.com/presentation/d/1H4cMlqqFkU5RnmaU5viW4UooQQhracWlUH_ND75PG7c/edit?usp=sharing";
     }
     if(kelolamapel.value=="pd"){
         showdatampl.style.display="none";
@@ -591,6 +591,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
