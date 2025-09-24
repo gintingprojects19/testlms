@@ -38,11 +38,11 @@ kelolamapel.addEventListener("change",function(){
     }
     if(kelolamapel.value=="cg"){
         showdatampl.style.display="none";
-        ishow.src="https://drive.google.com/file/d/1f-OZKY95RHiMhqoz2UhCgNpGuYQY6pAu/view?usp=sharing";
+        ishow.src="https://drive.google.com/file/d/1f-OZKY95RHiMhqoz2UhCgNpGuYQY6pAu/preview";
     }
     if(kelolamapel.value=="ps"){
         showdatampl.style.display="none";
-        ishow.src="https://drive.google.com/file/d/1f-OZKY95RHiMhqoz2UhCgNpGuYQY6pAu/view?usp=sharing";
+        ishow.src="https://drive.google.com/file/d/1f-OZKY95RHiMhqoz2UhCgNpGuYQY6pAu/preview";
     }
     if(kelolamapel.value=="pd"){
         showdatampl.style.display="none";
@@ -591,6 +591,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
